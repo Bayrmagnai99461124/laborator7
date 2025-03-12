@@ -1,21 +1,19 @@
 NER = input(" (square, rectangle, circle, triangle):")
 if NER == "square":
-    side = float(input("Talin urt:"))
+    side = float(input())
     area = side * side 
     print(f"{NER} {round(area, 3)}")
 elif NER == "rectangle":
-    length = float(input("urt:"))
-    width = float(input("urgun:"))
+    length = float(input())
+    width = float(input())
     area = length * width
     print(f"{NER} {round(area, 3)}")
 elif NER == "circle":
-    radius= float(input("radius:"))
+    radius= float(input())
     area = 3.14 * radius * radius
     print(f"{NER} {round(area, 3)}")
 elif NER == "triangle":
-    base = float(input("Suurin urt:"))
-    height = float(input("undur:"))
+    base = float(input())
+    height = float(input())
     area = 0.5 * base * height
     print(f"{NER} {round(area, 3)}")
-else:
-    print("buruu ug bn!")
