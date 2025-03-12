@@ -1,0 +1,159 @@
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~
+$ cd ladr
+bash: cd: ladr: No such file or directory
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~
+$ mkdir laab
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+'Cisco Packet Tracer 8.2.1'/
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{95f0a7ae-2c6c-11ed-94e9-7412b3e07656}.TM.blf
+ NTUSER.DAT{95f0a7ae-2c6c-11ed-94e9-7412b3e07656}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{95f0a7ae-2c6c-11ed-94e9-7412b3e07656}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ Pictures/
+ Postman/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+'VirtualBox VMs'/
+ WireframeSketcher/
+ dasgal1.py
+ eclipse/
+ eclipse-workspace/
+ laab/
+ lab7/
+ lab77/
+ labr/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ source/
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~
+$ cd laab
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/laab
+$ ls
+da-1.py  da-2.py  da-3.py  da-4..py  da-5.py
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/laab
+$ git init
+Initialized empty Git repository in C:/Users/Admin/laab/.git/
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/laab (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        da-1.py
+        da-2.py
+        da-3.py
+        da-4..py
+        da-5.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/laab (master)
+$ git add da-1.py
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/laab (master)
+$ git commit -m "tesst"
+[master (root-commit) a1310cd] tesst
+ 1 file changed, 22 insertions(+)
+ create mode 100644 da-1.py
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/laab (master)
+$ git add da-2.py
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/laab (master)
+$ git commit -m "test2"
+[master e7d77a3] test2
+ 1 file changed, 4 insertions(+)
+ create mode 100644 da-2.py
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/laab (master)
+$ git commit -m "test3"
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        da-3.py
+        da-4..py
+        da-5.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/laab (master)
+$ git add da-3.py
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/laab (master)
+$ git commit -m "test3"
+[master a53f67c] test3
+ 1 file changed, 16 insertions(+)
+ create mode 100644 da-3.py
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/laab (master)
+$ git add da-4..py
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/laab (master)
+$ git commit -m "tesst4"
+[master c4b8a60] tesst4
+ 1 file changed, 21 insertions(+)
+ create mode 100644 da-4..py
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/laab (master)
+$ git add da-5.py
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/laab (master)
+$ git commit -m "test5"
+[master ce42776] test5
+ 1 file changed, 8 insertions(+)
+ create mode 100644 da-5.py
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/laab (master)
+$ git remote add origin https://github.com/Bayrmagnai99461124/laborator7.git
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/laab (master)
+$ git remote -v
+origin  https://github.com/Bayrmagnai99461124/laborator7.git (fetch)
+origin  https://github.com/Bayrmagnai99461124/laborator7.git (push)
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/laab (master)
+$ git push origin master
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (15/15), 1.80 KiB | 1.80 MiB/s, done.
+Total 15 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/Bayrmagnai99461124/laborator7.git
+ * [new branch]      master -> master
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/laab (master)
+$ https://github.com/Bayrmagnai99461124/laborator7https://github.com/Bayrmagnai9
